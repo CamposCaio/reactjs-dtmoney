@@ -24,7 +24,7 @@ createServer({
           title: 'Aluguel',
           type: 'withdraw',
           category: 'Casa',
-          amount: 1100,
+          amount: -1100,
           createdAt: new Date('2021-02-14 11:00:00'),
         },
       ],
@@ -39,7 +39,11 @@ createServer({
     });
 
     this.post('/transactions', (schema, request) => {
+      console.log(request.requestBody);
+
       const data = JSON.parse(request.requestBody);
+
+      if (data['type'] === 'withdraw') data['amount'] = -data['amount'];
 
       return schema.create('transaction', data);
     });
