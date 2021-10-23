@@ -1,38 +1,46 @@
-# reactjs-dtmoney
+# ReactJS - dtmoney
 
-Projeto desenvolvido na trilha ReactJS do Ignite da RocketSeat.
+![<TypeScript>](https://img.shields.io/badge/-TypeScript-3F51B5?style=flat-square&logo=TypeScript&logoColor=white)
+![<React>](https://img.shields.io/badge/-React-03A9F4?style=flat-square&logo=React&logoColor=white)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aplicação front-end web completa desenvolvida na trilha ReactJS do Ignite da RocketSeat.
 
-## Available Scripts
+# Alguns dos conceitos utilizados nesse projeto
 
-In the project directory, you can run:
+- Styled Components;
+- MirageJS;
+- Context API;
+- Hooks;
+- Axios.
 
-### `yarn start`
+# Screenshot
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<img src="./src/assets/print-screen.png" alt='project print screen' />
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Instalação
 
-### `yarn test`
+1. Utilize o Git para clonar o projeto para o seu repositório local
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+git clone https://github.com/CamposCaio/reactjs-dtmoney.git
+```
 
-### `yarn build`
+2. Acesse o diretório do projeto recém criado
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+cd reactjs-dtmoney/
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Instale as dependencias do projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+yarn
+```
 
-## Learn More
+4. Inicialize a aplicação
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+yarn start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5. Acesse [http://localhost:3000](http://localhost:3000) para visualizá-la no browser.
